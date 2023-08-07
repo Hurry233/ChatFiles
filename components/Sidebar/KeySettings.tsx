@@ -62,7 +62,7 @@ export const KeySettings: FC<Props> = ({
                 </SheetTrigger>
                 <SheetContent position="left" size="sm">
                     <SheetHeader>
-                    <SheetTitle>OpenAI Key Configuration</SheetTitle>
+                    <SheetTitle>填入您的API Key以开始</SheetTitle>
                     </SheetHeader>
                     <Tabs defaultValue="openai" className="w-full mt-4">
                         <TabsList className="grid w-full grid-cols-2">
@@ -72,9 +72,9 @@ export const KeySettings: FC<Props> = ({
                         <TabsContent value="openai">
                             <Card>
                             <CardHeader>
-                                <CardTitle>OpenAI</CardTitle>
+                                <CardTitle>ChatGPT API Key</CardTitle>
                                 <CardDescription className='pt-4'>
-                                Make changes to your OpenAI Key here. Click save when you are done. We will not store your API Key.
+                                在输入框中，填入您的ChatGPT API Key. 为了方便国内用户使用，请使用官方中转Key，您可以在shop.pro365.top购买到它们。
                                 </CardDescription>
                             </CardHeader>
                             <CardContent className="space-y-2">
@@ -109,7 +109,7 @@ export const KeySettings: FC<Props> = ({
                             <CardHeader>
                                 <CardTitle>Azure OpenAI</CardTitle>
                                 <CardDescription className='pt-4'>
-                                Make changes to your Auzre OpenAI Configuration here. Click save when you are done. We will not store your API Key.
+                                如果您有Azure OpenAI API Key, 您可在此处进行填写设置。
                                 </CardDescription>
                             </CardHeader>
                             <CardContent className="space-y-2">
@@ -136,7 +136,7 @@ export const KeySettings: FC<Props> = ({
                             </CardContent>
                             <CardFooter>
                                 <SheetClose asChild>
-                                    <Button className="mx-auto mt-4 w-64" type="submit" onClick={handleAzureOpenAISubmit}>Save</Button>
+                                    <Button className="mx-auto mt-4 w-64" type="submit" onClick={handleAzureOpenAISubmit}>保存</Button>
                                 </SheetClose>
                             </CardFooter>
                             </Card>
