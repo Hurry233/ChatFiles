@@ -74,7 +74,7 @@ export const KeySettings: FC<Props> = ({
                             <CardHeader>
                                 <CardTitle>ChatGPT API Key</CardTitle>
                                 <CardDescription className='pt-4'>
-                                在输入框中，填入您的ChatGPT API Key. 为了方便国内用户使用，请使用官方中转Key，您可以在shop.pro365.top购买到它们。
+                                在输入框中，填入您的ChatGPT API Key。为了方便国内用户使用，请使用官方中转Key，您可以在<a href="https://shop.pro365.top"> 商店 </a>购买到它们。
                                 </CardDescription>
                             </CardHeader>
                             <CardContent className="space-y-2">
